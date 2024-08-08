@@ -301,7 +301,7 @@ To cancel multiple jobs, select the jobs to be canceled and click the *Cancel Se
 === Enabling Management Console security
 
 For security, the Management Console relies on https://www.keycloak.org/about.html[Keycloak] solution for authentication.
-Once a user is authenticated, Management Console uses bearer tokens to communicate with other {PRODUCT_SHORT} services.
+Once a you are authenticated, Management Console uses bearer tokens to communicate with other {PRODUCT_SHORT} services.
 
 IMPORTANT: By default, To enable security it is required to run Management Console in "PROD" mode.
 

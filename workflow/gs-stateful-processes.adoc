@@ -13,7 +13,7 @@ After the technology preview bill of materials is added, individual features fro
 
 == Creating and Configuring a BPMN Workflow
 
-In this section we will focus on how to build and configure the Hiring process in Canvas.
+In this section you focus on how to build and configure the Hiring process in Canvas.
 
 For information on setting up Canvas see xref:../installation/canvas.adoc[Canvas installation]
 

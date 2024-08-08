@@ -58,7 +58,7 @@ Data Index:: allows the last snapshot of the process state to be queried. The wo
 Human Task:: subsystem that allows human tasks to be executed. It provides a lifecycle internally. This should not be confused with a user task node in the workflow. The user task node uses this subsystem to implement user tasks.
 
 === Required deployments
-Storage:: This is another deployment. In our case would be PostgreSQL database where we are going to store the process state, jobs, data index, data audit and human task data. There can only be one storage that is shared among components and cannot be divided.
+Storage:: This is another deployment. In our case would be PostgreSQL database where you store the process state, jobs, data index, data audit and human task data. There can only be one storage that is shared among components and cannot be divided.
 
 
 

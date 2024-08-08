@@ -24,11 +24,11 @@ Table 1. KIE Tools
 For more information, see https://github.com/apache/incubator-kie-issues/issues/1313[issue,window=_blank].
 
 |Form Generation: Missing support for the form generation inputs
-|Currently, the *{FORM_GENERATION_TOOL}* only allows as an input the json schemas generated in a kogito app, which means, as a previous step we need a kogito app locally compiled.
+|Currently, the *{FORM_GENERATION_TOOL}* only allows as an input the json schemas generated in a kogito app, which means, as a previous step you need a kogito app locally compiled.
 For more information, see https://github.com/apache/incubator-kie-issues/issues/1315[issue,window=_blank].
 
 |jBPM Quarkus Dev UI: Wrong behaviors on the Error notification in Start Process Form component
-|If we try to start a process instance in the `jbpm-quarkus-devui` and something goes wrong after submitting the form, it shows an error dialog providing some feedback to the user.
+|If you try to start a process instance in the `jbpm-quarkus-devui` and something goes wrong after submitting the form, it shows an error dialog providing some feedback to the user.
 For more information, see https://github.com/apache/incubator-kie-issues/issues/1314[issue,window=_blank].
 |===
 

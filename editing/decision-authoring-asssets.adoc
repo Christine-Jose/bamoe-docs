@@ -490,7 +490,7 @@ date( "2017-05-12" ) - date( "2017-04-25" ) = duration( "P17D" )
   ** `days and time duration` = `duration` or `dayTimeDuration`
   ** `years and months duration` = `duration` or `yearMonthDuration`
 +
-Note that, for the "duration" types, the user can simply use `duration` and the decision engine will infer the proper duration, either `days and time duration` or `years and months duration`.
+Note that, for the "duration" types, you can simply use `duration` and the decision engine will infer the proper duration, either `days and time duration` or `years and months duration`.
 
 * __Lists support heterogeneous element types__: Currently this implementation supports lists with heterogeneous element types. This is an experimental extension and does limit the functionality of some functions and filters. This decision will be re-evaluated in the future.
 
@@ -861,7 +861,7 @@ You cannot include PMML models from different directories within your {PRODUCT} 
 
 [NOTE]
 ====
-Please notice {PRODUCT} doesn't contain a PMML modeler. You need to create the PMML model before it is included into DMN model using some other PMML modeler. For example the KIE community https://marketplace.visualstudio.com/items?itemName=kie-group.pmml-vscode-extension[PMML Scorecard Modeler].
+Please notice {PRODUCT} does not contain a PMML modeler. You need to create the PMML model before it is included into DMN model using some other PMML modeler. For example the KIE community https://marketplace.visualstudio.com/items?itemName=kie-group.pmml-vscode-extension[PMML Scorecard Modeler].
 ====
 
 .Procedure

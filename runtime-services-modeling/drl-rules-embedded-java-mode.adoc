@@ -48,7 +48,7 @@ StatelessKieSession kieSession2 = kieContainer.newStatelessKieSession("KSession2
 ----
 
 == pom.xml
-To run decision in embedded java mode, we will need to use `kie-maven-plugin` in our project.
+To run decision in embedded java mode, You must use `kie-maven-plugin` in our project.
 Also few a KIE specific dependencies are needed.
 Please update your `pom.xml` in the following way.
 
@@ -174,7 +174,7 @@ The event package provides means to be notified of Drools rule engine events, in
 This allows separation of logging and auditing activities from the main part of your application (and the rules).
 
 The `KieRuntimeEventManager` interface is implemented by the `KieRuntime` which provides two interfaces, `RuleRuntimeEventManager` and `ProcessEventManager`.
-We will only cover the `RuleRuntimeEventManager` here.
+Here, you cover only the `RuleRuntimeEventManager`.
 
 The `RuleRuntimeEventManager` allows for listeners to be added and removed, so that events for the working memory and the agenda can be listened to.
 

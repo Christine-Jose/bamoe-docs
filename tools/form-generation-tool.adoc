@@ -20,7 +20,7 @@ chmod a+x form-generation-cli-linux
 == Form Generation
 
 You can generate forms using the *{FORM_GENERATION_TOOL}* for any Workflow that requires input data.
-However, for this documentation, we will use existing https://incubator.apache.org/projects/kie.html[Apache Kie,window=_blank] *jbpm-compact-architecture-example* project available at https://www.ibm.com/support/pages/node/7151078[https://www.ibm.com/support/pages/node/7151078].
+However, for this documentation, you can use existing https://incubator.apache.org/projects/kie.html[Apache Kie,window=_blank] *jbpm-compact-architecture-example* project available at https://www.ibm.com/support/pages/node/7151078[https://www.ibm.com/support/pages/node/7151078].
 You will find more example projects in this zip file, however *jbpm-compact-architecture-example* requires the minimal effort to see forms in the action.
 Or you can use your own project.
 
@@ -111,7 +111,7 @@ hiring_ITInterview.html
 * *patternfly*: This type generates *.tsx* files using the *patternfly* library for styling the forms.
 * *bootstrap*: This type generates *.html* files using the *bootstrap* library for styling the forms.
 
-Furthermore, according to the file name extension, we can say that *.tsx* files are **React** forms and *.html* files are *plain html* forms.
+Furthermore, according to the file name extension, you can say that *.tsx* files are **React** forms and *.html* files are *plain html* forms.
 
 === Form Config
 Each generated form, both *patternfly* and *bootstrap*, has a corresponding *.config* file.
@@ -120,7 +120,7 @@ Furthermore, the goal of this *.config* file is to load additional scripts and s
 
 For the *patternfly* forms, by default, no additional scripts or styles are loaded.
 
-For the *bootstrap* forms, by default, we load `bootstrap@4.0.0` styles and `jquery@3.2.1` scripts.
+For the *bootstrap* forms, by default, `bootstrap@4.0.0` styles and `jquery@3.2.1` scripts are loaded.
 
 == Form DevUI
 For Quarkus-based https://incubator.apache.org/projects/kie.html[Apache Kie, window=_blank] projects, you can use and test them by using the *jBPM Quarkus DevUI* extension.
@@ -165,7 +165,7 @@ On the displayed page, find this card and click *Forms*.
 image::tools/jbpm-runtime-tools-quarkus-dev-ui.png[jBPM Quarkus Dev UI Card]
 
 
-Now you should see a list of all available forms that we listed via the command line earlier in this documentation.
+Now you should see a list of all available forms that listed via the command line earlier in this documentation.
 
 .Forms list
 image::tools/forms.png[Forms list]

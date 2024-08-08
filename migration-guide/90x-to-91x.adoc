@@ -358,7 +358,7 @@ This ends the `pom.xml` changes, next, files that need changes
 [start=4]
 . Update the `application.properties` file.
 +
-{PRODUCT_SHORT} Version {VERSION_910} doesn't fully support the Quarkus Dev Services, due to that, it's required to disable this feature and to do that, add the following line to the `src/main/resources/application.properties` file:
+{PRODUCT_SHORT} Version {VERSION_910} does not fully support the Quarkus Dev Services, due to that, it's required to disable this feature and to do that, add the following line to the `src/main/resources/application.properties` file:
 +
 [source]
 ----

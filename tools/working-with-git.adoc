@@ -1,7 +1,7 @@
 = Working with Git 
 include::../partials/attributes.adoc[]
 
-{CANVAS} streamlines the usage of Git to simplify workflows and guide users through a contribution model that minimizes conflicts and mitigates the complexity of managing a Git repository.
+{CANVAS} streamlines the usage of Git to simplify workflows and guide you through a contribution model that minimizes conflicts and mitigates the complexity of managing a Git repository.
 
 All Git repositories in {CANVAS} are stored in-browser and can be synced with a remote Git repository using a simplified set of operations, avoiding the complexities typically encountered when using Git from the Command Line.
 
@@ -11,11 +11,11 @@ However, it is recommended to Push work after each development session to ensure
 
 Each card on the Home page represents a separate Git repository and can contain any number of files, nested directories, and file types.
 {CANVAS} is capable of handling large repositories, with internal tests supporting up to 10,000 files.
-Although large repositories are supported, users are discouraged from creating them, as {CANVAS} is optimized for working with microservices deployed to a Cloud environment.
+Although large repositories are supported, you are discouraged from creating them, as {CANVAS} is optimized for working with microservices deployed to a Cloud environment.
 
 == Branches
 
-Users can specify the branch to work with when importing a remote Git repository.
+You can specify the branch to work with when importing a remote Git repository.
 For projects created directly on {CANVAS}, the default `main` branch is used.
 Changing branches of Git repositories on {CANVAS} is not possible.
 To work on two separate branches simultaneously, import the repository again and select a different branch.
@@ -30,7 +30,7 @@ When synchronizing a repository on {CANVAS}, a conflict will trigger an alert si
 image::tools/image8.png[Conflict error dialog]
 
 {CANVAS} does not provide a mechanism for resolving conflicts directly.
-Instead, it allows users to switch to a new branch temporarily, ignore the conflict, and continue working.
+Instead, it allows you to switch to a new branch temporarily, ignore the conflict, and continue working.
 
-To resolve conflicts externally, users can employ their preferred method and tool, Push the changes, and then return to {CANVAS} and Pull.
+To resolve conflicts externally, you can employ their preferred method and tool, Push the changes, and then return to {CANVAS} and Pull.
 Work can then be resumed from the previous state.

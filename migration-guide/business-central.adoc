@@ -99,7 +99,7 @@ Guided Decision Tables are a wizard-led alternative to uploaded decision table s
 With guided decision tables, you are led by a UI-based wizard in Business Central that helps you define rule attributes, metadata, conditions, and actions based on specified data objects in your project.
 After you create the guided decision tables, the rules you defined are compiled into Drools Rule Language (DRL) rules as with all other rule assets.
 
-Since the `Guided Decision Table` editor in Business Central is deprecated, users will need to export guided decision tables to Excel format.
+Since the `Guided Decision Table` editor in Business Central is deprecated, you will need to export guided decision tables to Excel format.
 Here is an example of how to do this using a `Guided Decision Table` as an example:
 
 **Examples**

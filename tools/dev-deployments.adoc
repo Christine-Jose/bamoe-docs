@@ -31,7 +31,7 @@ This is the most "hands-off" Dev Deployment option, but it has a few requirement
 
 It's a pre-defined Quarkus project template that already includes all the dependencies necessary to run a Decision or Workflow. It runs on a container image with Java and Maven, as well as the Dev Deployment Upload Service (xref:dev-deployment-upload-service.html[read more about it here]).
 
-A parameter is shown, giving the user the option to `Include DMN Form Webapp`. This is a sidecar container containing a webapp that parses the backend service API and dynamically generates a form with all of the Decisions inputs and outputs, allowing the user to fill the inputs simulate differente scenarios.
+A parameter is shown, giving you the option to `Include DMN Form Webapp`. This is a sidecar container containing a webapp that parses the backend service API and dynamically generates a form with all of the Decisions inputs and outputs, allowing you to fill the inputs simulate differente scenarios.
 
 .Dev Deployment application for a Decision created from {CANVAS}
 image::tools/devDeployments/form.png[]
@@ -50,7 +50,7 @@ Images used in this deployment:
 .Custom Image deployment option
 image::tools/devDeployments/deployment-option-custom-image.png[]
 
-The Custom Image option is the most configurable one and should allow users to create all kinds of different deployments. The deployed image can be changed to whatever the user decides, alongside the container port and initial container command to be executed.
+The Custom Image option is the most configurable one and should allow you to create all kinds of different deployments. The deployed image can be changed to whatever the you decides, alongside the container port and initial container command to be executed.
 
 This combination of parameters makes it a highly flexible option, but should be used with care and follow a few requirements still:
 

@@ -62,9 +62,9 @@ KieContainer kieContainer = kieServices.newKieContainer(releaseId);
 ----
 
 == DMNModel
-To execute a DMN Decision we need to know the DMN model namespace and model name.
+To execute a DMN Decision you need to know the DMN model namespace and model name.
 Both can be found in the properties panel of the DMN Editor.
-In this example we use namespace and model name from the <<_complete_example>>.
+In this example you can use namespace and model name from the <<_complete_example>>.
 
 .Obtain DMNRuntime from the KIE container and a reference to the DMN model to be evaluated, by using the model namespace and modelName
 [source,java]
@@ -91,8 +91,8 @@ dmnContext.set("Application", new LoanApplication("#0001"));
 ----
 
 == DMNResult
-In the example below we execute the DMN model and consequently we iterate its results.
-We should be able to see results for all `Decision` nodes of the given DMN Model.
+In the example below you can execute the DMN model and consequently you can iterate its results.
+You should be able to see results for all `Decision` nodes of the given DMN Model.
 
 .Execute the DMN Model
 [source,java]
@@ -106,7 +106,7 @@ for (DMNDecisionResult dr : dmnResult.getDecisionResults()) {
 }
 ----
 
-For executing <<_complete_example>> model, we should see output like below.
+For executing <<_complete_example>> model, you must see output like below.
 
 [source,bash]
 ----
