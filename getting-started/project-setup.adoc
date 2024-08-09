@@ -46,6 +46,6 @@ Follow along with one of the examples in 15 minutes to complete setup and usage 
 
 == Source Control
 {CANVAS} is a standalone editor for BAMOE files, only works with git.
-Any git based tools should continue to work with BAMOE projects (i.e. vscode, git cli, GitHub Desktop, and so on.).
+Any git based tools should continue to work with BAMOE projects (that is vscode, git cli, GitHub Desktop, and so on.).
 Add the code to git using a preferred tool, and push to a remote.
 More information about xref:../installation/canvas.html[installing] and xref:../editing/intro-editing-testing.html[using {CANVAS}] can be found later in this documentation.

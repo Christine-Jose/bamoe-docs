@@ -53,6 +53,6 @@ Table 3. {PRODUCT_SHORT} Maven repository image
 
 |Container runs on port 80
 |The container is configured to run the `httpd` service on port 80.
-This is an issue when deploying it to restrictive Kubernetes clusters (such as OpenShift) which restrict the usage of ports < 1024 except when made by a Service Account with elevated privileges (e.g. `anyuid` permission on OpenShift).
+This is an issue when deploying it to restrictive Kubernetes clusters (such as OpenShift) which restrict the usage of ports < 1024 except when made by a Service Account with elevated privileges (for example, `anyuid` permission on OpenShift).
 To workaround this, xref:build-maven-repo.adoc[build your own container image].
 |===

@@ -105,7 +105,7 @@ The following table lists the configurable parameters of the {CANVAS}
 | global.kubernetesIngressClass 
 | string  
 | ""  
-| If using Minikube or Kubernetes, set the Ingress class (i.e: nginx)
+| If using Minikube or Kubernetes, set the Ingress class (that is, nginx)
 
 | global.openshiftRouteDomain 
 | string  

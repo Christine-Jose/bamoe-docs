@@ -110,7 +110,7 @@ The Path is `$\{HOST}/data-audit/q` for sending GraphQL queries.
 
 ==== Example 1
 
-Execute a registered query, e.g. `GetAllProcessInstancesState` with a definition of data fields that should be returned:
+Execute a registered query, for example, `GetAllProcessInstancesState` with a definition of data fields that should be returned:
 
 [source,console]
 ----

@@ -606,7 +606,7 @@ Implemented the following specification:
 |This attribute is a UnaryTests that restricts the values in the base type that are allowed in this ItemDefinition. In case of a collection, it directly constrains the collection and is not projected on the collection elements.
 |===
 
-These new feature allows an interesting use case, i.e. filtering a base type based on its value, and then filtering a collection of the above element based on size (or other attribute) of the  collection itself.
+These new feature allows an interesting use case, that is filtering a base type based on its value, and then filtering a collection of the above element based on size (or other attribute) of the  collection itself.
 
 Example
 [source,xml]
