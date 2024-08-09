@@ -91,7 +91,7 @@ Examples of these types of attributes are `salience`, `dialect`, `no-loop`, & `l
 
 //should they be removed?
 
-At this point you are free to modify the new `technical rule` to your liking, such as updating to use `rule units`, using `OOPATH syntax` vs `mvel`, etc. 
+At this point you are free to modify the new `technical rule` to your liking, such as updating to use `rule units`, using `OOPATH syntax` vs `mvel`, and so on. 
 
 == How to **Export** the asset from Business Central
 
