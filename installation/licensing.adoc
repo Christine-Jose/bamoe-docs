@@ -47,7 +47,7 @@ For both components, {PRODUCT_DM} and {PRODUCT_PAM}, clients can expect the foll
 
 === Licensing for Disaster Recovery or Backup
 
-When considering backup installations, active licenses are required for backup copies that are running simultaneously with the primary installation. Inactive or idling backup copies typically don't need extra licenses. In-depth information can be found in the https://www.ibm.com/about/software-licensing/assets/guides_pdf/Backup.pdf[Backup and Disaster Recovery Licensing Guide].
+When considering backup installations, active licenses are required for backup copies that are running simultaneously with the primary installation. Inactive or idling backup copies typically do not need extra licenses. In-depth information can be found in the https://www.ibm.com/about/software-licensing/assets/guides_pdf/Backup.pdf[Backup and Disaster Recovery Licensing Guide].
 
 
 You can find the latest LI information for the available components, parts, and software versions in the https://www.ibm.com/about/software-licensing/us-en/product_search?search=5900-AR4&type=pid&platform=[License Information (LI) for {PRODUCT_LONG}].
