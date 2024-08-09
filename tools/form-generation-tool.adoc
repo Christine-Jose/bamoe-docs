@@ -8,8 +8,8 @@ The *{FORM_GENERATION_TOOL}* generates the web forms needed for the execution of
 // TODO: what url to use?
 Download *{FORM_GENERATION_TOOL}* zip file available at https://www.ibm.com/support/pages/node/7151078[https://www.ibm.com/support/pages/node/7151078].
 The zip file contains three binary files of the same tool for multiple operating systems.
-Please choose the binary file according your operating system and extract it into desired destination.
-Then please make sure the binary file is executable.
+Choose the binary file according your operating system and extract it into desired destination.
+Then make sure the binary file is executable.
 
 .Make sure the binary file is executable - linux example
 [source,bash]
@@ -155,7 +155,7 @@ http://localhost:8080/q/dev-ui/extensions
 ====
 //TOD Add Link for the issue
 Currently *jbpm-compact-architecture-example* contains one wrong dependency that needs to be removed.
-Please remove `org.jbpm:jbpm-quarkus-devui-bom` from the project `pom.xml`.
+Remove `org.jbpm:jbpm-quarkus-devui-bom` from the project `pom.xml`.
 For more information, see xref:../introduction/release-notes/known-limitations.adoc[Known limitations].
 ====
 

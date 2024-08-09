@@ -141,7 +141,7 @@ By default, {CANVAS} is configured to fetch this image from https://quay.io/repo
 ====
 The pre-configured image is NOT part of {PRODUCT_SHORT}, and resides in the open-source Apache KIE community.
 If you are  installing {CANVAS}, you must change `KIE_SANDBOX_DMN_DEV_DEPLOYMENT_BASE_IMAGE_URL` to make sure the used image meets your requirements.
-For a reference on how to build your own image that is compatible with {CANVAS} development deployments, please go to the Apache KIE community's source code for `dmn-dev-deployment-base-image` at https://github.com/apache/incubator-kie-tools/tree/{KIE_TOOLS_COMMUNITY_VERSION}/packages/dmn-dev-deployment-base-image.
+For a reference on how to build your own image that is compatible with {CANVAS} development deployments, go to the Apache KIE community's source code for `dmn-dev-deployment-base-image` at https://github.com/apache/incubator-kie-tools/tree/{KIE_TOOLS_COMMUNITY_VERSION}/packages/dmn-dev-deployment-base-image.
 ====
 
 //what pre-configured image? Should we say, A pre-configured image is available from the community but is not part of BAMOE? Are we really saying that users should build their custom image from the base image rather than a pre-configured one? 
@@ -152,7 +152,7 @@ For example, imagine you are creating development deployments for Decisions on {
 This local Kubernetes instance needs to be able to download the image configured in `KIE_SANDBOX_DMN_DEV_DEPLOYMENT_BASE_IMAGE_URL`.
 The same is true for remote Kubernetes and OpenShift instances that the users of {CANVAS} will configure to create their Dev Deployments for Decisions.
 
-For other customization options of {CANVAS}, please refer to the https://quay.io/repository/bamoe/canvas?tab=info[description of the image].
+For other customization options of {CANVAS}, refer to the https://quay.io/repository/bamoe/canvas?tab=info[description of the image].
 
 == Other installation methods
 
@@ -160,4 +160,4 @@ For other customization options of {CANVAS}, please refer to the https://quay.io
 
 == Securing your Installation
 
-It is recommended to have a secure protocol (HTTPS) available for the {CANVAS} installation as well as all services that {CANVAS} has access to, such as remote git repositories, or container orchestration like OpenShift. To enable that, please follow your Kubernetes distribution documentation on how to enable a secure protocol, ensuring that all access tokens have a token expiration policy.
+It is recommended to have a secure protocol (HTTPS) available for the {CANVAS} installation as well as all services that {CANVAS} has access to, such as remote git repositories, or container orchestration like OpenShift. To enable that, follow your Kubernetes distribution documentation on how to enable a secure protocol, ensuring that all access tokens have a token expiration policy.

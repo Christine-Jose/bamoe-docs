@@ -50,7 +50,7 @@ StatelessKieSession kieSession2 = kieContainer.newStatelessKieSession("KSession2
 == pom.xml
 To run decision in embedded java mode, You must use `kie-maven-plugin` in our project.
 Also few a KIE specific dependencies are needed.
-Please update your `pom.xml` in the following way.
+Update your `pom.xml` in the following way.
 
 [source,xml]
 ----
@@ -245,7 +245,7 @@ However the keen-eyed reader probably has already noticed the `FireAllRules` com
 The `FireAllRules` command is allowed, and using it will disable the automatic execution at the end; think of using it as a sort of manual override function.
 
 Any command, in the batch, that has an out identifier set will add its results to the returned `ExecutionResults` instance.
-Please notice `"applicant"` and `"application"` identifiers in our example.
+Note the `"applicant"` and `"application"` identifiers in our example.
 
 == Complete example
 Most of the mentioned concepts can be seen as https://github.com/bamoe/bamoe-docs-source-code-examples/tree/9.1.x/rules-embedded-mode-example[rules-embedded-mode-example].
