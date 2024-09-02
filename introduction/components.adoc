@@ -75,4 +75,4 @@ For more information see xref:../workflow/consoles.html[Interacting with process
 * Jobs and asynchronous services execution
 * Observability with metrics decision and process services
 
-For more information, see xref:../workflow/overview.adoc[Overview stateful process] and  xref:../runtime-services-modeling/runtime-services-modeling.adoc[Service monitoring with Prometheus and Grafana].
+For more information, see xref:../workflow/overview.adoc[Overview stateful process] and  xref:../runtime-services-modeling/monitoring-services.adoc[Service monitoring with Prometheus and Grafana].

@@ -112,7 +112,7 @@ quarkus.http.cors=true
 ----
 
 * Procedure
-. In a command terminal, enter the following command to run the Management Console:
+In a command terminal, enter the following command to run the Management Console:
 +
 .Running the Management Console
 [source,subs="attributes"]

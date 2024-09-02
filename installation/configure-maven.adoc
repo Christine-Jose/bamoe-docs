@@ -141,7 +141,7 @@ Create and/or use a Service Account elevated privileges:
 Since our image runs on port 80, some clusters may require you to run the container as root.
 To do so, make sure you create and use a Service Account that can create Deployments/Pods that run as user 0 (root).
 
-For the following steps, wherever you see `<SERVICE_ACCOUNT_NAME>`` replace it with the Service Account created in this step.
+For the following steps, wherever you see `<SERVICE_ACCOUNT_NAME>` replace it with the Service Account created in this step.
 
 Create the Deployment, Service, and Ingress
 
@@ -158,7 +158,7 @@ kubectl create ingress bamoe-maven-repo --rule="<EXTERNAL_BAMOE_MAVEN_REPO_URL>/
 
 === Running on Docker locally
 
-Start by loading the `tar.gz`` file or pulling the image from quay.io:
+Start by loading the `tar.gz` file or pulling the image from quay.io:
 
 * **bamoe-9.1.0-maven-repository-image.tar.gz**
 +

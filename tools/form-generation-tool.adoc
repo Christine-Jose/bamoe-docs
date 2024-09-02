@@ -6,7 +6,7 @@ The *{FORM_GENERATION_TOOL}* generates the web forms needed for the execution of
 
 == Tool Installation
 // TODO: what url to use?
-Download *{FORM_GENERATION_TOOL}* zip file available at https://www.ibm.com/support/pages/node/7151078[https://www.ibm.com/support/pages/node/7151078].
+Download *{FORM_GENERATION_TOOL}* zip file available at https://www.ibm.com/support/pages/node/7151078[BAMOE 9.1.0 Download Document].
 The zip file contains three binary files of the same tool for multiple operating systems.
 Choose the binary file according your operating system and extract it into desired destination.
 Then make sure the binary file is executable.
@@ -20,7 +20,7 @@ chmod a+x form-generation-cli-linux
 == Form Generation
 
 You can generate forms using the *{FORM_GENERATION_TOOL}* for any Workflow that requires input data.
-However, for this documentation, you can use existing https://incubator.apache.org/projects/kie.html[Apache Kie,window=_blank] *jbpm-compact-architecture-example* project available at https://www.ibm.com/support/pages/node/7151078[https://www.ibm.com/support/pages/node/7151078].
+However, for this documentation, you can use existing https://incubator.apache.org/projects/kie.html[Apache Kie,window=_blank] *jbpm-compact-architecture-example* project available at https://www.ibm.com/support/pages/node/7151078[BAMOE 9.1.0 Download Document].
 You will find more example projects in this zip file, however *jbpm-compact-architecture-example* requires the minimal effort to see forms in the action.
 Or you can use your own project.
 
@@ -195,9 +195,7 @@ Let's remove this piece of the source code
   </p>
 </div>
 ----
-
-and click the *Execute form* button.
-You will immediately see the result.
+Click the *Execute form* button to see the result.
 
 .Updated hiring form
 image::tools/hiring-updated.png[Updated hiring form]

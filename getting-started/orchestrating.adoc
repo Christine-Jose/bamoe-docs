@@ -33,7 +33,7 @@ In the traffic violations project, the interactions with the defined decisions a
 
 NOTE: The ID property of a process is used in the REST endpoint generation, which refers to the path that is used to interact with the process.
 
-Also, the classes in the process are used to define the Plain Old Java Objects (POJOs) that enable the interaction between the process and decisions. The process classes include `Violation`, `Driver`, `Fine`.
+Also, the classes in the process are used to define the Plain Old Java Objects (POJOs) that enable the interaction between the process and decisions. The process classes include `Violation`, `Driver`, and `Fine`.
 
 === Decisions in traffic violation example
 
@@ -192,4 +192,4 @@ For more {PRODUCT} examples that use decisions orchestrated by processes, see th
 * `process-business-rules-quarkus`: An example project that shows the use of business rules and processes
 * `process-decisions-rest-quarkus`: An example project that shows the usage of decisions within processes. The project focuses on how to integrate decisions in a remote way using REST APIs where they can be deployed and decoupled from the process service.
 * `process-decisions-rules-quarkus`: An example project that shows the usage of decisions within processes. The project focuses on integrating decisions in an embedded way using Business Rule Tasks where they must be deployed together with the process.
-`process-error-handling`: A usage scenario of the Error Handling Strategy
+* `process-error-handling`: A usage scenario of the Error Handling Strategy
